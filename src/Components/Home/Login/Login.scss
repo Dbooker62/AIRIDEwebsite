@@ -1,0 +1,72 @@
+.mainContainer {
+  margin-top: 1rem;
+  display: flex;
+  height: 95vh;
+
+  .firstDiv {
+    width: 50%;
+    padding: 2rem;
+    h2 {
+      color: #42464e;
+    }
+
+    label {
+      color: #838aa3;
+    }
+
+    button {
+      background-color: #137dffdc;
+      color: white;
+      height: 40px;
+      align-items: center;
+
+      &:hover {
+        background-color: #007dfe;
+      }
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .firstDiv {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      padding: 1.5rem;
+
+      h2 {
+        font-size: 2rem;
+      }
+    }
+  }
+  @media screen and (max-width: 800px) {
+    .firstDiv {
+      width: 60%;
+      display: flex;
+      justify-content: center;
+      padding: 1.5rem;
+
+      h2 {
+        font-size: 2rem;
+      }
+    }
+  }
+
+  .secondDiv {
+    width: 50%;
+    img {
+      object-fit: contain;
+      height: 100%;
+      width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .secondDiv {
+      display: none;
+    }
+  }
+  @media screen and (max-width: 800px) {
+    .secondDiv {
+      width: 40%;
+    }
+  }
+}

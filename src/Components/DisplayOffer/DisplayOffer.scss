@@ -1,0 +1,19 @@
+.container1 {
+  display: flex;
+  .card {
+    width: 90%;
+    padding: 3rem;
+    .cardContent {
+      direction: row;
+      .cardBody {
+        display: flex;
+        .title {
+        }
+        .details {
+        }
+        .category {
+        }
+      }
+    }
+  }
+}

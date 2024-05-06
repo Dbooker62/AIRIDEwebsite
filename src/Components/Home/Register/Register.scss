@@ -1,0 +1,13 @@
+.registerComponent {
+  justify-content: space-between;
+  .percentBar {
+    // background-color: #338fff;
+    width: 80%;
+    border-radius: 12px;
+    height: 5px;
+  }
+  .allComponents {
+    height: 95vh;
+    width: 100%;
+  }
+}
